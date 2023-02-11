@@ -28,6 +28,7 @@ header {
 .subtitle {
     background-color: #000;
     color: antiquewhite;
+    font-size: 2em;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -36,11 +37,6 @@ header {
     height: 250px;
     position: absolute;
     top: 13%;
-}
-
-.current {
-    text-decoration: none;
-    color: #77a;
 }
 
 .indentation {
@@ -54,12 +50,17 @@ header {
     right: 10px;
 }
 
-nav > a {
+.navitem {
     font-size: 1.2em;
+    color: blue;
     padding: 10px;
     border: 2px solid rgb(248, 222, 73);
     border-radius: 1em;
-    color: blue;
+}
+
+.current {
+    text-decoration: none;
+    color: #77a;
 }
 
 a:hover {

@@ -52,19 +52,15 @@ header {
     margin-bottom: 20px;
 }
 
-.navbar {
-    display: inline-flex;
-    flex-direction: column;
-    margin: 0 40px;
-}
-
 .navitem {
-    margin-bottom: 40px;
+    display: block;
+    margin: 40px;
 }
 
 .info {
-    display: inline-flex;
-    flex-direction: column;
+    position: absolute;
+    top: 64px;
+    left: 200px;
 }
 
 .email {
