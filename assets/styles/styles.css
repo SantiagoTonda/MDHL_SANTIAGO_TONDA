@@ -4,15 +4,14 @@
     box-sizing: border-box;
 }
 
-header {
-    width: 100vw;
-    height: 40vh;
-}
-
 .img1 {
     width: 100%;
     height: 40vh;
     object-fit: cover;
+}
+
+header {
+    background-color: #000;
 }
 
 .title {
@@ -33,12 +32,14 @@ header {
     background-color: #000;
     color: rgb(248, 222, 73);
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .logo {
+    height: 200px;
     position: absolute;
-    top: -88px;
-    right: 76px;
+    top: -123px;
+    right: 6%;
 }
 
 .current {
@@ -48,4 +49,24 @@ header {
 
 .indentation {
     text-indent: 1em;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 40px;
+}
+
+.navitem {
+    margin-bottom: 40px;
+}
+
+.info {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.email {
+    margin-bottom: 20px;
 }
