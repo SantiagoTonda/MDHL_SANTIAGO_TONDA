@@ -2,18 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 1em;
     font-family: sans-serif;
 }
 
 header {
     background-color: #000;
+    height: 50vh;
 }
 
 .title {
     color: antiquewhite;
     font-size: 2.5em;
-    font-weight: bolder;
     flex-grow: 1;
     margin-left: 10px;
     text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.411);
@@ -34,20 +33,20 @@ nav {
 
 .navitem {
     font-size: 1.2em;
-    color: blue;
+    color: antiquewhite;
     padding: 9px;
     border: 2px solid rgb(248, 222, 73);
     border-radius: .6em;
     margin-bottom: 5px;
+    text-decoration: none;
 }
 
 .current {
-    text-decoration: none;
     color: #77a;
 }
 
 a:hover {
-    background-color: wheat;
+    background-color: #31325c;
 }
 
 .img-banner {
@@ -57,11 +56,17 @@ a:hover {
     object-fit: cover;
 }
 
+main {
+    background-color: #77a;
+    min-height: 50vh
+}
+
 .subtitle {
     background-color: #000;
+    height: 1.5em;
+    padding: 7px;
     color: antiquewhite;
     font-size: 2em;
-    font-weight: bolder;
     text-align: center;
     margin-bottom: 20px;    
 }
@@ -88,6 +93,10 @@ a:hover {
     margin: 0 60px;
 }
 
+.pb20 {
+    padding-bottom: 20px;
+}
+
 .info {
     margin: 0 30px;
     font-size: larger;
@@ -98,7 +107,6 @@ a:hover {
 }
 
 div>h2 {
-    font-weight: bolder;
     margin: 20px 0;
 }
 
@@ -108,14 +116,6 @@ li {
 
 div>ol>li {
     margin-bottom: 10px;
-}
-
-.italic {
-    font-style: italic;
-}
-
-.underline {
-    text-decoration: underline;
 }
 
 .contact {
@@ -129,4 +129,5 @@ td {
 
 table {
     margin-bottom: 40px;
+    background-color: rgba(83, 83, 126, 0.2);
 }
