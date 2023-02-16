@@ -2,76 +2,132 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font: 1em sans-serif;
+    font-family: sans-serif;
 }
 
 header {
     background-color: #000;
-}
-
-.img1 {
-    width: 100%;
-    height: 40vh;
-    object-fit: cover;
-    margin-top: 60px;
+    height: 50vh;
 }
 
 .title {
     color: antiquewhite;
     font-size: 2.5em;
-    font-weight: bolder;
-    position: absolute;
-    top: 6px;
-    left: 10px;
-}
-
-.subtitle {
-    background-color: #000;
-    color: antiquewhite;
-    font-size: 2em;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.logo {
-    height: 250px;
-    position: absolute;
-    top: 13%;
-}
-
-.indentation {
-    text-indent: 1em;
-    margin-bottom: 20px;
+    flex-grow: 1;
+    margin-left: 10px;
+    text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.411);
 }
 
 .navbar {
-    position: absolute;
-    top: 19px;
-    right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 20px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .3rem;
 }
 
 .navitem {
     font-size: 1.2em;
-    color: blue;
-    padding: 10px;
+    color: antiquewhite;
+    padding: 9px;
     border: 2px solid rgb(248, 222, 73);
-    border-radius: 1em;
+    border-radius: .6em;
+    margin-bottom: 5px;
+    text-decoration: none;
 }
 
 .current {
-    text-decoration: none;
     color: #77a;
 }
 
 a:hover {
-    background-color: wheat;
+    background-color: #31325c;
+}
+
+.img-banner {
+    display: block;
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+main {
+    background-color: #77a;
+    min-height: 50vh
+}
+
+.subtitle {
+    background-color: #000;
+    height: 1.5em;
+    padding: 7px;
+    color: antiquewhite;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;    
+}
+
+.subtitle2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.logo {
+    display: block;
+    height: 100px;
+}
+
+.indentation {
+    text-indent: 1em;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mx60 {
+    margin: 0 60px;
+}
+
+.pb20 {
+    padding-bottom: 20px;
 }
 
 .info {
-    margin-left: 20px;
+    margin: 0 30px;
     font-size: larger;
 }
 
 .email {
     margin-bottom: 10px;
+}
+
+div>h2 {
+    margin: 20px 0;
+}
+
+li {
+    list-style-position: inside;
+}
+
+div>ol>li {
+    margin-bottom: 10px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+td {
+    padding: 5px 50px;
+}
+
+table {
+    margin-bottom: 40px;
+    background-color: rgba(83, 83, 126, 0.2);
 }
