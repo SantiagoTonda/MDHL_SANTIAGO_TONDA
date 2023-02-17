@@ -68,7 +68,7 @@ main {
     color: antiquewhite;
     font-size: 2em;
     text-align: center;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
 
 .subtitle2 {
@@ -120,14 +120,89 @@ div>ol>li {
 
 .contact {
     display: flex;
-    justify-content: space-between;
 }
 
-td {
-    padding: 5px 50px;
+.flex-item {
+    flex-grow: 1;
+}
+
+td,th {
+    padding: 0 40px;
+    border: 1px solid black;
+    text-align: center;
 }
 
 table {
     margin-bottom: 40px;
     background-color: rgba(83, 83, 126, 0.2);
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+iframe {
+    display: block;
+    margin: 5px 0;
+}
+
+fieldset {
+    margin: 10px 30px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+legend {
+    font-weight: bolder;
+}
+
+.inputs-labels {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+input {
+    flex-grow: 1;
+    margin: 0 5px;
+}
+
+input[type="radio"] {
+    margin-bottom: 20px;
+}
+
+fieldset p {
+    display: inline;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+
+.mx10 {
+    margin: 0 10px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.inputs-labels2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px;
+}
+
+input[type="submit"] {
+    margin: 0 40px 10px;
+    padding: 10px;
+    font-size: .8em;
+    font-weight: bolder;
+    border-radius: .5em;
+}
+
+input[type="submit"]:hover {
+    background-color: #ddd;
+    cursor: pointer;
 }
